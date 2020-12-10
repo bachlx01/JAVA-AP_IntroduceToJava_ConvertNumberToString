@@ -24,7 +24,7 @@ public class ConvertNumberToString {
             numberString = textNumber[number%10] + "teen";
         } else if (number < 100){
             numberString = textDozen[number/10]+textNumber[number%10];
-        } else if (number ==10){
+        } else if (number ==100){
             numberString = "one hundred";
         }
         else if (number <1000){
